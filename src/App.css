@@ -1,0 +1,69 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+.custom-navbar{
+  background: linear-gradient(#258cb4,#C0C8E3);
+}
+.mx-2:hover{
+  border-radius: 50px;
+  background: #5681EA;
+}
+.typing-text {
+  font-weight: bold;
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 3s steps(20, end) forwards, blink 0.7s steps(2, start) 3s;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.mt-5{
+  margin-top: 100px;
+  transform: translateX(-150px);
+}
+.contact{
+  transform: translateX(-370px);
+  color: #5681EA;
+}
+.mt-5{
+  margin-left: 280px;
+}
+#forabout {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+#about-h1:hover{
+  color: #5681EA;
+}
+#about-skill:hover{
+  color: #5681EA;
+}
+.symbols {
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.projects {
+  border: 1px solid #258cb4;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  margin-top: 100px;
+  background: linear-gradient(#C88F9B,#99BBC3);
+}
+.button{
+  background-color: #C88F9B;
+  border: #C0C8E3;
+}
