@@ -6,7 +6,6 @@ import Navigation from "./Navigation";
 import About from "./About";
 import Project from './Projects'
 
-// import img2 from "../src/assets/keerthana.JPG"
 
 let App = () => {
   return (
